@@ -105,7 +105,7 @@ const addNewTask = (taskDesc: string) => {
     writeToFile(tasks);
     console.log("Task added successfully.");
   } catch (error) {
-    console.log(`Error occured while adding new task: ${error}`);
+    console.log(`Error occurred while adding new task: ${error}`);
   }
 };
 
@@ -188,12 +188,12 @@ if (options.list) {
   listAllTasks(options.list);
 }
 
-if (options.mark_in_progress) {
-  markInProgress(options.mark_in_progress);
+if (options.markInProgress) {
+  markInProgress(options.markInProgress);
 }
 
-if (options.mark_done) {
-  markDone(options.mark_done);
+if (options.markDone) {
+  markDone(options.markDone);
 }
 
 if (!process.argv.slice(2).length) {
