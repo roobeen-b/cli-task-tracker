@@ -14,5 +14,5 @@ The application runs from the command line, accepts user actions and inputs as a
   - Then, run "npm build" to build the project
   - Then, you can run "node dist/index.js -h" to see all the available commands
   - For e.g., You can check all the available todos using the command "node dist/index.js -l"
-  - Alternatively, you can run "npm install -g" to globally install the project.
+  - Alternatively, you can run "npm install -g" to globally install the project or use "npm link"
   - After installing the project globally, you can use "task-cli" instead of "node dist/index.js" to run all the available commands. For e.g., use "task-cli -l" to list all the available todos
